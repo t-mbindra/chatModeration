@@ -26,17 +26,17 @@ You can interact with the bot by messaging it.
     ```
 7. Open this project in VS Code.
 8. Using the Teams toolkit extension, sign in with your Microsoft 365 account where you have permissions to upload custom apps.
-10. Run the following command to install dependencies:
+9. Run the following command to install dependencies:
     ```bash
     poetry install
     ```
-11. Run the following command to build this sample:
+10. Run the following command to build this sample:
       ```bash
       poetry build
       ```
-12. Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using ```OpenAI``` then only populate the ```OPENAI_KEY variable. Otherwise if you are using ```AzureOpenAI``` then only populate the AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT variables.
-13. Press **Ctrl+Shift+D**. Select **Debug (Edge)** or **Debug(Chrome)** and press **F5** or click on the play button.
-14. In the browser that launches, select the **Add** button to install the app to Teams.
+11. Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using ```OpenAI``` then only populate the ```OPENAI_KEY variable. Otherwise if you are using ```AzureOpenAI``` then only populate the AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT variables.
+12. Press **Ctrl+Shift+P** to view the Command Palette. Select the command **Python: Select Interpretor** and choose ```'.venv': (Poetry)```.
+13. Press **Ctrl+Shift+D** top open the **Run and Debug** menu. Select **Debug (Edge)** or **Debug(Chrome)** and press **F5** or click on the play button.14. In the browser that launches, select the **Add** button to install the app to Teams.
 
 > If you do not have permission to upload custom apps (sideloading), Teams Toolkit will recommend creating and using a Microsoft 365 Developer Program account - a free program to get your own dev environment sandbox that includes Teams.
 
