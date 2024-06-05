@@ -14,7 +14,7 @@
 
 You can interact with the bot by messaging it.
 
-## Setting up the app  
+## Setting up the app in VS Code
 1. Ensure you have [Python](https://www.python.org/downloads/), [Rust](https://www.rust-lang.org/tools/install) and [Node.js](https://nodejs.org/en/download/package-manager) installed.
 2. Ensure you have downloaded and installed [Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview).
 3. Install the [Teams Toolkit extension](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension).
