@@ -35,12 +35,12 @@ You can interact with the bot by messaging it.
       ```
 10. Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT``` variables.
 
-### If you want to debug locally, continue to step 11, else skip to step 14.
+#### If you want to debug locally, continue to step 11, else skip to step 14.
 11. Press **Ctrl+Shift+P** to view the Command Palette. Select the command **Python: Select Interpretor** and choose ```'.venv': (Poetry)```.
 12. Press **Ctrl+Shift+D** to open the **Run and Debug** menu. Select **Debug (Edge)** or **Debug(Chrome)** and press **F5** or click on the play button.
 13. In the browser that launches, select the **Add** button to install the app to Teams.
 
-### Continue here to deploy the app on Azure.
+#### Continue here to deploy the app on Azure.
 14. Using the Teams Toolkit Extension tab, Click on **Provision** under lifecycle. Select relevant subscription and resource group when prompted.
 15. Using the Teams Toolkit Extension tab, Click on **Deploy** under lifecycle.
 16. Go to your Teams app and click on the **App** icon.
@@ -57,12 +57,12 @@ You can interact with the bot by messaging it.
 3. Using the Teams Toolkit extension, sign in with your Microsoft 365 account where you have permissions to upload custom apps.
 4.  Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT``` variables.
    
-### If you want to debug locally, continue to step 5, else skip to step 8.
+#### If you want to debug locally, continue to step 5, else skip to step 8.
 5. Press **Ctrl+Shift+D** to open the **Run and Debug** menu. Select **Debug** and press **F5** or click on the play button
 6. Go to the link (https://dev.botframework.com/bots?id=...) from the Output console.
 7. Click on **Microsoft Teams**. Use the web app or launch the Teams app to use the bot.
 
-### Continue here to deploy the app on Azure.
+#### Continue here to deploy the app on Azure.
 8. Using the Teams Toolkit Extension tab, Click on **Provision** under lifecycle. Select relevant subscription and resource group when prompted.
 9. Using the Teams Toolkit Extension tab, Click on **Deploy** under lifecycle.
 10. Download the zip file ```appPackage/build/appPackage.dev.zip```.
