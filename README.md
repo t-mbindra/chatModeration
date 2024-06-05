@@ -41,8 +41,8 @@ You can interact with the bot by messaging it.
 13. In the browser that launches, select the **Add** button to install the app to Teams.
 
 #### Continue here to deploy the app on Azure.
-14. Using the Teams Toolkit Extension tab, Click on **Provision** under lifecycle. Select relevant subscription and resource group when prompted.
-15. Using the Teams Toolkit Extension tab, Click on **Deploy** under lifecycle.
+14. Using the Teams Toolkit Extension tab, click on **Provision** under lifecycle. Select relevant subscription and resource group when prompted.
+15. Using the Teams Toolkit Extension tab, click on **Deploy** under lifecycle.
 16. Go to your Teams app and click on the **App** icon.
 17. Select **Manage your apps** followed by **Upload an app**.
 18. Select **Upload a custom app** and open the ```appPackage/build/appPackage.dev.zip``` zip file from the project folder.
@@ -63,8 +63,8 @@ You can interact with the bot by messaging it.
 7. Click on **Microsoft Teams**. Use the web app or launch the Teams app to use the bot.
 
 #### Continue here to deploy the app on Azure.
-8. Using the Teams Toolkit Extension tab, Click on **Provision** under lifecycle. Select relevant subscription and resource group when prompted.
-9. Using the Teams Toolkit Extension tab, Click on **Deploy** under lifecycle.
+8. Using the Teams Toolkit Extension tab, click on **Provision** under lifecycle. Select relevant subscription and resource group when prompted.
+9. Using the Teams Toolkit Extension tab, click on **Deploy** under lifecycle.
 10. Download the zip file ```appPackage/build/appPackage.dev.zip```.
 11. Go to your Teams app and click on the **App** icon.
 12. Select **Manage your apps** followed by **Upload an app**. Select **Upload a custom app** and open the downloaded zip file.
