@@ -1,6 +1,6 @@
 # Teams Toolkit
 .env
-env
+env/*.user
 appPackage/build
 .deployment
 
