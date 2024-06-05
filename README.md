@@ -5,7 +5,7 @@
 <!-- code_chunk_output -->
 
 - [Interacting with the bot](#interacting-with-the-bot)
-- [Setting up the app](#setting-up-the-app)
+- [Setting up the app](#setting-up-the-app-in-VS-Code)
 - [Setting up the app in Github Codespaces](#setting-up-the-app-in-github-codespaces)
 
 <!-- /code_chunk_output -->
