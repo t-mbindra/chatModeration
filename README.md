@@ -45,7 +45,7 @@ You can interact with the bot by messaging it.
 1. Click on **Use this template > Open in a codebase**.
 2. Wait for the codespace to be setup, it may take a few minutes.
 3. Using the Teams Toolkit extension, sign in with your Microsoft 365 account where you have permissions to upload custom apps.
-4.  Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using ```OpenAI``` then only populate the ```OPENAI_KEY variable. Otherwise if you are using ```AzureOpenAI``` then only populate the AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT variables.
+4.  Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using ```OpenAI``` then only populate the ```OPENAI_KEY``` variable. Otherwise if you are using ```AzureOpenAI``` then only populate the AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT variables.
 5. Press **Ctrl+Shift+D**. Select **Debug** and press **F5** or click on the play button
 6. Go to the link (https://dev.botframework.com/bots?id=...) from the Output console.
 7. Click on **Microsoft Teams**. Use the web app or launch the Teams app to use the bot.
