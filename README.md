@@ -33,7 +33,7 @@ You can interact with the bot by messaging it.
       ```bash
       poetry build
       ```
-10. Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT``` variables.
+10. Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY, OPENAI_MODEL``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_MODEL, AZURE_OPENAI_ENDPOINT``` variables.
 
 #### If you want to debug locally, continue to step 11, else skip to step 14.
 11. Press **Ctrl+Shift+P** to view the Command Palette. Select the command **Python: Select Interpretor** and choose ```'.venv': (Poetry)```.
@@ -55,7 +55,7 @@ You can interact with the bot by messaging it.
 1. Click on **Use this template > Open in a codebase**.
 2. Wait for the codespace to be setup, it may take a few minutes.
 3. Using the Teams Toolkit extension, sign in with your Microsoft 365 account where you have permissions to upload custom apps. Also sign into your Azure account.
-4.  Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT``` variables.
+4.  Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY, OPENAI_MODEL``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_MODEL, AZURE_OPENAI_ENDPOINT``` variables.
    
 #### If you want to debug locally, continue to step 5, else skip to step 8.
 5. Press **Ctrl+Shift+D** to open the **Run and Debug** menu. Select **Debug** and press **F5** or click on the play button
