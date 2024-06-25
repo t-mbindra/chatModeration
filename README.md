@@ -34,9 +34,9 @@ You can interact with the bot by messaging it.
       poetry build
       ```
 10. Duplicate the ```sample.env``` file and rename it as ```.env```. If you are using OpenAI then only populate the ```OPENAI_KEY, OPENAI_MODEL``` variable. Otherwise if you are using AzureOpenAI then only populate the ```AZURE_OPENAI_KEY, AZURE_OPENAI_MODEL, AZURE_OPENAI_ENDPOINT``` variables.
-
-#### If you want to debug locally, continue to step 11, else skip to step 14.
 11. Press **Ctrl+Shift+P** to view the Command Palette. Select the command **Python: Select Interpretor** and choose ```'.venv': (Poetry)```.
+
+#### If you want to debug locally, continue to step 12, else skip to step 14.
 12. Press **Ctrl+Shift+D** to open the **Run and Debug** menu. Select **Debug (Edge)** or **Debug(Chrome)** and press **F5** or click on the play button.
 13. In the browser that launches, select the **Add** button to install the app to Teams.
 
